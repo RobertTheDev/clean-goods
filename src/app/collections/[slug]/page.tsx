@@ -1,18 +1,16 @@
-import Link from "next/link";
+import CollectionCard from "../components/CollectionCard";
 
 export default function Collection() {
   return (
-    <div>
-      <main>
-        <h1>Collection</h1>
-        <div>
+    <main>
+      <h1>Collection</h1>
+      <div>
+        <ul>
           <ul>
-            <li>
-              <Link href="/products/red">Red</Link>
-            </li>
+            <CollectionCard />
           </ul>
-        </div>
-      </main>
-    </div>
+        </ul>
+      </div>
+    </main>
   );
 }

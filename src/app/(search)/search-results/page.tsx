@@ -1,4 +1,4 @@
-import Link from "next/link";
+import SearchResultCard from "../components/SearchResultCard";
 
 export default function SearchResults() {
   return (
@@ -7,9 +7,7 @@ export default function SearchResults() {
         <h1>SearchResults</h1>
         <div>
           <ul>
-            <li>
-              <Link href="/products/red">Red</Link>
-            </li>
+            <SearchResultCard />
           </ul>
         </div>
       </main>

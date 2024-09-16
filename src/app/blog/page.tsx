@@ -1,4 +1,4 @@
-import Link from "next/link";
+import BlogCard from "./components/BlogCard";
 
 export default function BlogPosts() {
   return (
@@ -7,12 +7,8 @@ export default function BlogPosts() {
         <h1>BlogPosts</h1>
         <div>
           <ul>
-            <li>
-              <Link href="/blog/1">1</Link>
-            </li>
-            <li>
-              <Link href="/blog/2">2</Link>
-            </li>
+            <BlogCard />
+            <BlogCard />
           </ul>
         </div>
       </main>
