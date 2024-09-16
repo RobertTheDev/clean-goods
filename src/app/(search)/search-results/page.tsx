@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function Collection() {
+export default function SearchResults() {
   return (
     <div>
       <main>
-        <h1>Collection</h1>
+        <h1>SearchResults</h1>
         <div>
           <ul>
             <li>

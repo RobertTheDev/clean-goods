@@ -1,14 +1,15 @@
 import Link from "next/link";
 
-export default function Collection() {
+export default function Collections() {
   return (
     <div>
       <main>
-        <h1>Collection</h1>
+        <h1>Collections</h1>
         <div>
           <ul>
             <li>
-              <Link href="/products/red">Red</Link>
+              <Link href="/collections/1">1</Link>
+              <Link href="/collections/2">2</Link>
             </li>
           </ul>
         </div>
